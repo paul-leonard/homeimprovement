@@ -8,3 +8,26 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
   }
+
+  h2{
+    outline: dashed 2px green;
+  }
+
+  h3 {
+    outline: dashed 2px red;
+
+  }
+
+  p {
+    outline: dashed 2px blue;
+
+  }
+
+/* 
+  class's
+  nobullets
+  centered
+
+
+  id's
+  topnav botnav */
