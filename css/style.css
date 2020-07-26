@@ -1,5 +1,4 @@
 * {
-  /* outline: dashed 3px orange; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgba(0, 0, 0, 0.79);
   }
@@ -40,7 +39,6 @@
     flex-grow: 1;
     text-align: center;
     font-size: 14pt;
-    /* outline: purple dashed 2px; */
   }
 
   #topnav ul {
@@ -57,7 +55,6 @@
   #facetime {
     width: 600px;
     margin: 70px auto;
-    /* justify-content: center; */
   }
 
   .futurecontent {
@@ -76,7 +73,6 @@
   }
   
   h2{
-    /* outline: dashed 2px green; */
     text-align: center;
     font-size: 23pt;
     margin-bottom: 20px;
@@ -90,7 +86,6 @@
   }
 
   h3 {
-    /* outline: dashed 2px red; */
     text-align: center;
     margin-top: 45px;
     font-size: 18pt;
@@ -123,7 +118,6 @@
   }
 
   p {
-    /* outline: dashed 2px blue; */
     line-height: 1.5em;
     font-size: 14pt;
     text-indent: 2.5em;
