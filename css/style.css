@@ -1,27 +1,78 @@
 * {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   outline: dashed 3px orange;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.79);
   }
 
+  header {
+    /* background-image: ; */
+    background-color: purple;
+  }
+
+
+  nav, nav a, nav ul li emp {
+    background-color: rgb(89, 82, 82);
+    color: whitesmoke;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0px;
+    align-items: center;
+    height: 40px;
+  }
+
+  nav > ul > li {
+    flex-grow: 1;
+    text-align: center;
+    outline: purple dashed 2px;
+  }
+
+  #rescue {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  
   h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
   }
-
+  
   h2{
     outline: dashed 2px green;
+    text-align: center;
+    
   }
-
+  
   h3 {
     outline: dashed 2px red;
+    text-align: center;
+    
+  }
+  
+  .services > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .services div div p, .services div div div p {
+    width: 300px;
+    text-indent: 1.5em;
+    margin: 2px 60px 2px 60px
   }
 
   p {
     outline: dashed 2px blue;
-
   }
+
+
 
 /* 
   class's
