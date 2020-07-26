@@ -20,6 +20,11 @@
   nav, nav a, nav ul li emp {
     background-color: rgb(59, 54, 54);
     color: whitesmoke;
+    text-decoration: none;
+  }
+
+  nav ul li emp {
+    font-style: italic;
   }
 
   nav > ul {
@@ -45,21 +50,16 @@
   #rescue {
     text-align: center;
     font-style: italic;
-    font-size: 16pt;
+    font-size: 19pt;
     font-weight: bold;
   }
   
-.services h2 {
-  font-size: 25pt;
-  text-decoration: underline;
-}
-
   #facetime {
     width: 600px;
     margin: 70px auto;
     /* justify-content: center; */
   }
-
+  
   h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 52pt;
@@ -73,14 +73,31 @@
   h2{
     /* outline: dashed 2px green; */
     text-align: center;
-    font-size: 20pt;
-      }
+    font-size: 23pt;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
   
+  .services h2 {
+    font-size: 25pt;
+    font-style: italic;
+    margin-bottom: 0px;
+  }
+
   h3 {
     /* outline: dashed 2px red; */
     text-align: center;
     margin-top: 45px;
     font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    height: 1px;
+    background-color: rgb(80, 75, 75);
+    margin: 0px 450px 0px 450px;
+    padding: 0px 450px 0px 450px;
   }
   
   .services > div > div {
@@ -90,13 +107,21 @@
   }
 
   .services div div p, .services div div div p {
-    width: 300px;
+    width: 450px;
     text-indent: 1.5em;
     margin: 2px 60px 2px 60px
   }
 
+  #facetime p {
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+
   p {
     /* outline: dashed 2px blue; */
+    line-height: 1.5em;
+    font-size: 14pt;
+    text-indent: 2.5em;
   }
 
   footer {
