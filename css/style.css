@@ -59,6 +59,11 @@
     margin: 70px auto;
     /* justify-content: center; */
   }
+
+  .futurecontent {
+    width: 800px;
+    margin: 30px auto;
+  }
   
   h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -96,8 +101,8 @@
   hr {
     height: 1px;
     background-color: rgb(80, 75, 75);
-    margin: 0px 450px 0px 450px;
-    padding: 0px 450px 0px 450px;
+    margin: 0px 200px 0px 200px;
+    padding: 0px 200px 0px 200px;
   }
   
   .services > div > div {
@@ -122,6 +127,40 @@
     line-height: 1.5em;
     font-size: 14pt;
     text-indent: 2.5em;
+  }
+
+  #contactinfo {
+    list-style: square;
+    text-align: center;
+    line-height: 2em;
+    font-size: 20pt;
+  }
+
+  #customercontact{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 2em;
+    font-size: 18pt;
+  }
+
+  #formfields {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    flex-direction: column;
+  }
+
+  label {
+    margin-left: 10px;
+    margin-right: 1px;
+  }
+
+  input {
+    margin-left: 1px;
+    margin-right: 10px;
   }
 
   footer {
